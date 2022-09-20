@@ -1,0 +1,18 @@
+{
+  "RaceTypes": [
+    {
+      "RaceName": "Beginer race",
+      "dialogue": "wellcome to the beginer race this is where you will test your skills and see if your truely ready for an actual race, but for now your objective is to rave around the track passing through multiple checkpoints but be carefull this race will be times and if you do not beat the intended time given you will not be able to move onto the next race"
+
+    },
+    {
+      "RaceName": "",
+      "dialogue": ""
+    },
+    {
+      "RaceName": "",
+      "dialogue": ""
+    }
+  ]
+}
+
