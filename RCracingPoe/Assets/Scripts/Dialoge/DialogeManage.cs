@@ -15,11 +15,17 @@ public class Dialoge_Manager : MonoBehaviour
     {
         Sentences = new Queue<string>();
     }
-
+    //if (racebutton.click == true)
+    //{
+    //  racenum == 1;
+    //  
+    //}
+    //int racenum1 = "racebutton.text"
     public void startDialogue(Dialogue RaceDialogue)
     {
+        Dialogue DL = new Dialogue();
         Debug.Log("starting convo with " + RaceDialogue.RaceName);
-        displayRaceName.text = Dialogue.RaceName;
+        displayRaceName.text = DL.RaceName[1];
         Sentences.Clear();
 
         foreach (var Sentence in RaceDialogue.sentences)
