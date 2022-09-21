@@ -10,17 +10,29 @@ public class CheckpointScript : MonoBehaviour
     {
         rb = GetComponent<Rigidbody>();
     }
-    // Start is called before the first frame update
-    void Start()
+
+    Stack<GameObject> CheckpointP = new Stack<GameObject>();
+
+    private void SpawnCheckpoint()
     {
-        
+        if (CheckpointP.Count > 0)
+        {
+            GameObject Checkpoint = CheckpointP.Pop();
+                Checkpoint.SetActive(true);
+        }
+        else
+        {
+            
+        }
     }
 
-    // Update is called once per frame
-    void Update()
+    private void PassedCheckpoint(GameObject Checkpoint)
     {
-        
+        Checkpoint.SetActive(false);
+        CheckpointP.Push(Checkpoint);
     }
+
+
 
    /* private void OnTriggerEnter(Collider other)
     {
