@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Inspector
+  m_Title: Hierarchy
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -119,10 +119,10 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 947
-  m_MinSize: {x: 678, y: 492}
+  m_MinSize: {x: 677, y: 492}
   m_MaxSize: {x: 14001, y: 14042}
   vertical: 0
-  controlID: 106
+  controlID: 89
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -144,10 +144,10 @@ MonoBehaviour:
     y: 0
     width: 1506
     height: 947
-  m_MinSize: {x: 403, y: 492}
+  m_MinSize: {x: 402, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 37
+  controlID: 43
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -169,10 +169,10 @@ MonoBehaviour:
     y: 0
     width: 1506
     height: 632
-  m_MinSize: {x: 403, y: 221}
-  m_MaxSize: {x: 8003, y: 4021}
+  m_MinSize: {x: 402, y: 221}
+  m_MaxSize: {x: 8002, y: 4021}
   vertical: 0
-  controlID: 38
+  controlID: 44
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -192,8 +192,8 @@ MonoBehaviour:
     y: 0
     width: 301
     height: 632
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 12}
   m_Panes:
   - {fileID: 12}
@@ -307,9 +307,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 70ccffff
-      m_LastClickedID: -13200
-      m_ExpandedIDs: 66d2ffffe4d2ffff06d3ffff8ad3fffff0d7ffff26dcffff54f6ffff6efbffff543e00005e3e00008c400000a0400000de41000022440000364400006c440000a4440000ae440000
+      m_SelectedIDs: 42560000
+      m_LastClickedID: 22082
+      m_ExpandedIDs: 8ce2ffff425600009e560000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -369,9 +369,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 610.25604, y: 233.11551, z: 160.99724}
+    m_Target: {x: 1669.0461, y: 289.351, z: -3283.3274}
     speed: 2
-    m_Value: {x: 610.25604, y: 233.11551, z: 160.99724}
+    m_Value: {x: 1669.0461, y: 289.351, z: -3283.3274}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -418,13 +418,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.26460835, y: -0.026033523, z: 0.007146268, w: 0.9639796}
+    m_Target: {x: 0.1582492, y: -0.5869948, z: 0.118315905, w: 0.78511244}
     speed: 2
-    m_Value: {x: 0.26460794, y: -0.026033482, z: 0.007146257, w: 0.9639781}
+    m_Value: {x: 0.15824872, y: -0.5869931, z: 0.118315555, w: 0.7851101}
   m_Size:
-    m_Target: 314.96622
+    m_Target: 121.77269
     speed: 2
-    m_Value: 314.96622
+    m_Value: 121.77269
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -576,22 +576,22 @@ MonoBehaviour:
     m_SkipHidden: 1
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts/Dialoge/RaeezDialogue
+    - Assets/Scripts/car scripts
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scripts/Dialoge/RaeezDialogue
+  - Assets/Scripts/car scripts
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\zenla\Documents\C#work\RacingSim\RCracingPoe
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: c83f0000
-    m_LastClickedID: 16328
-    m_ExpandedIDs: 00000000f43e0000f63e0000f83e0000083f000000ca9a3b
+    m_SelectedIDs: f4560000
+    m_LastClickedID: 22260
+    m_ExpandedIDs: 00000000e2560000e4560000ee560000f656000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -619,7 +619,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000f43e0000f63e0000f83e0000
+    m_ExpandedIDs: 00000000e2560000e4560000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
