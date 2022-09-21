@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [System.Serializable]
-public class Dialogue
+public class Dialogue2
 {
-    public string[] RaceName;
-    [TextArea(3, 10)]
-    public string[] sentence;
+    public string announcer;
+    [TextArea(3,10)]
+    public string[] sentences;
 }

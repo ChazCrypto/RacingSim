@@ -28,7 +28,7 @@ public class Dialoge_Manager : MonoBehaviour
         displayRaceName.text = DL.RaceName[1];
         Sentences.Clear();
 
-        foreach (var Sentence in RaceDialogue.sentences)
+        foreach (var Sentence in RaceDialogue.sentence)
         {
             Sentences.Enqueue(Sentence);
         }
