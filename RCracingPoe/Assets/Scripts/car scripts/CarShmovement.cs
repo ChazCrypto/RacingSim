@@ -15,11 +15,11 @@ public class CarShmovement : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.S))
         {
-            rb.AddRelativeForce(-15f, 0, 0, ForceMode.Acceleration);
+            rb.AddRelativeForce(-5f, 0, 0, ForceMode.Acceleration);
         }
         if (Input.GetKey(KeyCode.W))
         {
-            rb.AddRelativeForce(30f, 0, 0, ForceMode.Acceleration);
+            rb.AddRelativeForce(3f, 0, 0, ForceMode.Acceleration);
         }
         if (Input.GetKey(KeyCode.A))
         {
