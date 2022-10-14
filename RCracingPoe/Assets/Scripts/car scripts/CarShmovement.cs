@@ -23,11 +23,11 @@ public class CarShmovement : MonoBehaviour
         }
         if (Input.GetKey(KeyCode.A))
         {
-            this.transform.Rotate(0, 0, -0.05f, Space.Self);
+            this.transform.Rotate(0, 0, -0.2f, Space.Self);
         }
         if (Input.GetKey(KeyCode.D))
         {
-            this.transform.Rotate(0, 0, 0.05f, Space.Self);
+            this.transform.Rotate(0, 0, 0.2f, Space.Self);
         }
     }
 }
