@@ -144,6 +144,7 @@ GameObject:
   - component: {fileID: 9193356806730775560}
   - component: {fileID: 6373061896031668418}
   - component: {fileID: 8060803773203027551}
+  - component: {fileID: 7049043405442003960}
   m_Layer: 0
   m_Name: RaceTrack2
   m_TagString: Untagged
@@ -235,6 +236,20 @@ MeshCollider:
   serializedVersion: 4
   m_Convex: 0
   m_CookingOptions: -1
+  m_Mesh: {fileID: 690106047850165013, guid: aba9ffe75c8977c43b5711686b8871af, type: 3}
+--- !u!64 &7049043405442003960
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4859760544059762967}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
   m_Mesh: {fileID: 690106047850165013, guid: aba9ffe75c8977c43b5711686b8871af, type: 3}
 --- !u!1 &5051629017384529597
 GameObject:
