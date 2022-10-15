@@ -15,19 +15,19 @@ public class CarShmovement : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.S))
         {
-            rb.AddRelativeForce(-5f, 0, 0, ForceMode.Acceleration);
+            rb.AddRelativeForce(-2f, 0, 0, ForceMode.Acceleration);
         }
         if (Input.GetKey(KeyCode.W))
         {
-            rb.AddRelativeForce(3f, 0, 0, ForceMode.Acceleration);
+            rb.AddRelativeForce(2f, 0, 0, ForceMode.Acceleration);
         }
         if (Input.GetKey(KeyCode.A))
         {
-            this.transform.Rotate(0, 0, -0.2f, Space.Self);
+            this.transform.Rotate(0, 0, -0.1f, Space.Self);
         }
         if (Input.GetKey(KeyCode.D))
         {
-            this.transform.Rotate(0, 0, 0.2f, Space.Self);
+            this.transform.Rotate(0, 0, 0.1f, Space.Self);
         }
     }
 }

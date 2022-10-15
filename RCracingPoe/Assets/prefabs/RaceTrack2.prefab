@@ -143,8 +143,7 @@ GameObject:
   - component: {fileID: 5204620598303814573}
   - component: {fileID: 9193356806730775560}
   - component: {fileID: 6373061896031668418}
-  - component: {fileID: 8060803773203027551}
-  - component: {fileID: 7049043405442003960}
+  - component: {fileID: 7253483439370226548}
   m_Layer: 0
   m_Name: RaceTrack2
   m_TagString: Untagged
@@ -223,34 +222,22 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &8060803773203027551
-MeshCollider:
+--- !u!54 &7253483439370226548
+Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4859760544059762967}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 0
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: -1
-  m_Mesh: {fileID: 690106047850165013, guid: aba9ffe75c8977c43b5711686b8871af, type: 3}
---- !u!64 &7049043405442003960
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4859760544059762967}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 690106047850165013, guid: aba9ffe75c8977c43b5711686b8871af, type: 3}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 4
+  m_CollisionDetection: 0
 --- !u!1 &5051629017384529597
 GameObject:
   m_ObjectHideFlags: 0
