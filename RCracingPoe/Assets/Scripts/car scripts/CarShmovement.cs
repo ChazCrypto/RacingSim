@@ -10,6 +10,12 @@ public class CarShmovement : MonoBehaviour
 
     public Vector3 breaks;
 
+    private void Start()
+    {
+        Herspers = new Vector3(0, 0, 400);
+        breaks = new Vector3(0, 0, -150);
+    }
+
     // Update is called once per frame
     void Update()
     {

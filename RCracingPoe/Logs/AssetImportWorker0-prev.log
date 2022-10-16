@@ -15,11 +15,11 @@ C:/Users/zenla/Documents/C#work/RacingSim/RCracingPoe
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-51997
+49680
 Successfully changed project path to: C:/Users/zenla/Documents/C#work/RacingSim/RCracingPoe
 C:/Users/zenla/Documents/C#work/RacingSim/RCracingPoe
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 31.44 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 30.25 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.32f1 (12f8b0834f07)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/Resources/UnitySubsystems
@@ -35,89 +35,89 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56428
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56956
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002051 seconds.
+Registered in 0.001979 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 30.20 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 28.81 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.505 seconds
+- Completed reload, in  0.484 seconds
 Domain Reload Profiling:
-	ReloadAssembly (506ms)
-		BeginReloadAssembly (57ms)
+	ReloadAssembly (485ms)
+		BeginReloadAssembly (55ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (381ms)
-			LoadAssemblies (55ms)
+		EndReloadAssembly (363ms)
+			LoadAssemblies (53ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (129ms)
+			SetupTypeCache (122ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (26ms)
-			SetupLoadedEditorAssemblies (137ms)
+			RebuildScriptCaches (25ms)
+			SetupLoadedEditorAssemblies (132ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (30ms)
-				BeforeProcessingInitializeOnLoad (12ms)
-				ProcessInitializeOnLoadAttributes (66ms)
-				ProcessInitializeOnLoadMethodAttributes (23ms)
+				RefreshPlugins (29ms)
+				BeforeProcessingInitializeOnLoad (13ms)
+				ProcessInitializeOnLoadAttributes (64ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002882 seconds.
+Registered in 0.002681 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.927 seconds
+- Completed reload, in  0.839 seconds
 Domain Reload Profiling:
-	ReloadAssembly (928ms)
-		BeginReloadAssembly (138ms)
+	ReloadAssembly (839ms)
+		BeginReloadAssembly (134ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (20ms)
-		EndReloadAssembly (734ms)
+			CreateAndSetChildDomain (19ms)
+		EndReloadAssembly (650ms)
 			LoadAssemblies (81ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (230ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (40ms)
-			SetupLoadedEditorAssemblies (299ms)
+			SetupTypeCache (224ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (243ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (80ms)
-				ProcessInitializeOnLoadAttributes (195ms)
-				ProcessInitializeOnLoadMethodAttributes (10ms)
-				AfterProcessingInitializeOnLoad (8ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (67ms)
+				ProcessInitializeOnLoadAttributes (157ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1609 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 74.7 MB.
 System memory in use after: 74.8 MB.
 
 Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2049.
-Total: 3.279400 ms (FindLiveObjects: 0.205300 ms CreateObjectMapping: 0.036500 ms MarkObjects: 2.960300 ms  DeleteObjects: 0.076000 ms)
+Total: 3.175200 ms (FindLiveObjects: 0.142700 ms CreateObjectMapping: 0.033800 ms MarkObjects: 2.918000 ms  DeleteObjects: 0.079800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -133,767 +133,929 @@ AssetImportParameters requested are different than current active one (requested
 Received Import Request.
   path: Assets/prefabs/RaceTrack2.prefab
   artifactKey: Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71ee30031c54ffef1db23071dbcf500e') in 0.117861 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002993 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.809 seconds
-Domain Reload Profiling:
-	ReloadAssembly (809ms)
-		BeginReloadAssembly (109ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (32ms)
-		EndReloadAssembly (643ms)
-			LoadAssemblies (81ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (225ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (32ms)
-			SetupLoadedEditorAssemblies (236ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (63ms)
-				ProcessInitializeOnLoadAttributes (153ms)
-				ProcessInitializeOnLoadMethodAttributes (7ms)
-				AfterProcessingInitializeOnLoad (7ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1590 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 76.3 MB.
-System memory in use after: 76.4 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2059.
-Total: 2.749300 ms (FindLiveObjects: 0.151700 ms CreateObjectMapping: 0.034600 ms MarkObjects: 2.541600 ms  DeleteObjects: 0.020400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002830 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.841 seconds
-Domain Reload Profiling:
-	ReloadAssembly (842ms)
-		BeginReloadAssembly (105ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (29ms)
-		EndReloadAssembly (678ms)
-			LoadAssemblies (88ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (227ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (43ms)
-			SetupLoadedEditorAssemblies (241ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (66ms)
-				ProcessInitializeOnLoadAttributes (156ms)
-				ProcessInitializeOnLoadMethodAttributes (7ms)
-				AfterProcessingInitializeOnLoad (7ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1590 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 76.4 MB.
-System memory in use after: 76.5 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2062.
-Total: 2.880900 ms (FindLiveObjects: 0.191600 ms CreateObjectMapping: 0.042200 ms MarkObjects: 2.622400 ms  DeleteObjects: 0.023300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac1ef23e169e953678f452632a10faa0') in 0.097994 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 468.570301 seconds.
-  path: Assets/Scripts/car scripts/CarShmovement.cs
-  artifactKey: Guid(33f3e2a0aa07beb47827560e87a97c68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/car scripts/CarShmovement.cs using Guid(33f3e2a0aa07beb47827560e87a97c68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acf9ffea9f6c2cd2300344ace560c8c5') in 0.013399 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002762 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.824 seconds
-Domain Reload Profiling:
-	ReloadAssembly (824ms)
-		BeginReloadAssembly (102ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (29ms)
-		EndReloadAssembly (659ms)
-			LoadAssemblies (87ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (235ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (33ms)
-			SetupLoadedEditorAssemblies (233ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (65ms)
-				ProcessInitializeOnLoadAttributes (149ms)
-				ProcessInitializeOnLoadMethodAttributes (7ms)
-				AfterProcessingInitializeOnLoad (7ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1590 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 76.4 MB.
-System memory in use after: 76.5 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2065.
-Total: 3.001100 ms (FindLiveObjects: 0.146000 ms CreateObjectMapping: 0.034500 ms MarkObjects: 2.796100 ms  DeleteObjects: 0.023100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004071 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.809 seconds
-Domain Reload Profiling:
-	ReloadAssembly (809ms)
-		BeginReloadAssembly (104ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (28ms)
-		EndReloadAssembly (647ms)
-			LoadAssemblies (86ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (221ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (34ms)
-			SetupLoadedEditorAssemblies (237ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (64ms)
-				ProcessInitializeOnLoadAttributes (154ms)
-				ProcessInitializeOnLoadMethodAttributes (8ms)
-				AfterProcessingInitializeOnLoad (7ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1590 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 76.4 MB.
-System memory in use after: 76.5 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2068.
-Total: 2.912700 ms (FindLiveObjects: 0.167500 ms CreateObjectMapping: 0.039100 ms MarkObjects: 2.680700 ms  DeleteObjects: 0.024100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003291 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.848 seconds
-Domain Reload Profiling:
-	ReloadAssembly (849ms)
-		BeginReloadAssembly (112ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (34ms)
-		EndReloadAssembly (673ms)
-			LoadAssemblies (87ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (234ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (35ms)
-			SetupLoadedEditorAssemblies (244ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (65ms)
-				ProcessInitializeOnLoadAttributes (160ms)
-				ProcessInitializeOnLoadMethodAttributes (8ms)
-				AfterProcessingInitializeOnLoad (7ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1590 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 76.4 MB.
-System memory in use after: 76.5 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2071.
-Total: 2.725500 ms (FindLiveObjects: 0.151100 ms CreateObjectMapping: 0.036900 ms MarkObjects: 2.511500 ms  DeleteObjects: 0.025300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002974 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.852 seconds
-Domain Reload Profiling:
-	ReloadAssembly (852ms)
-		BeginReloadAssembly (101ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (29ms)
-		EndReloadAssembly (690ms)
-			LoadAssemblies (84ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (232ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (36ms)
-			SetupLoadedEditorAssemblies (261ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (65ms)
-				ProcessInitializeOnLoadAttributes (177ms)
-				ProcessInitializeOnLoadMethodAttributes (8ms)
-				AfterProcessingInitializeOnLoad (7ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1590 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 76.4 MB.
-System memory in use after: 76.5 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2074.
-Total: 3.070500 ms (FindLiveObjects: 0.186800 ms CreateObjectMapping: 0.037200 ms MarkObjects: 2.814400 ms  DeleteObjects: 0.030200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 587.732707 seconds.
+  Time since last request: 6.331517 seconds.
   path: Assets/prefabs/RaceTrack2.prefab
   artifactKey: Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd41a1cb3c54b384cc5cfe78755d4fd52') in 0.059875 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002924 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.783 seconds
-Domain Reload Profiling:
-	ReloadAssembly (784ms)
-		BeginReloadAssembly (99ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (29ms)
-		EndReloadAssembly (630ms)
-			LoadAssemblies (78ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (217ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (32ms)
-			SetupLoadedEditorAssemblies (232ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (63ms)
-				ProcessInitializeOnLoadAttributes (150ms)
-				ProcessInitializeOnLoadMethodAttributes (7ms)
-				AfterProcessingInitializeOnLoad (7ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1590 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 76.4 MB.
-System memory in use after: 76.5 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2078.
-Total: 3.237200 ms (FindLiveObjects: 0.274800 ms CreateObjectMapping: 0.069900 ms MarkObjects: 2.869400 ms  DeleteObjects: 0.022100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a554ac50054c1681d31a09740e78c2c') in 0.017018 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 253.102336 seconds.
-  path: Assets/prefabs/car.prefab
-  artifactKey: Guid(a1e3496cc55a53541b28716dfaf71fd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/prefabs/car.prefab using Guid(a1e3496cc55a53541b28716dfaf71fd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45f4078e73115994434dbecd69b7438f') in 0.054411 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.771244 seconds.
-  path: Assets/prefabs/car.prefab
-  artifactKey: Guid(a1e3496cc55a53541b28716dfaf71fd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/prefabs/car.prefab using Guid(a1e3496cc55a53541b28716dfaf71fd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88793397c4cec04498839a42ddc42515') in 0.009605 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002832 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.798 seconds
-Domain Reload Profiling:
-	ReloadAssembly (799ms)
-		BeginReloadAssembly (100ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (28ms)
-		EndReloadAssembly (642ms)
-			LoadAssemblies (80ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (228ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (32ms)
-			SetupLoadedEditorAssemblies (230ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (63ms)
-				ProcessInitializeOnLoadAttributes (148ms)
-				ProcessInitializeOnLoadMethodAttributes (8ms)
-				AfterProcessingInitializeOnLoad (7ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1590 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 76.5 MB.
-System memory in use after: 76.6 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2082.
-Total: 2.647700 ms (FindLiveObjects: 0.153100 ms CreateObjectMapping: 0.033500 ms MarkObjects: 2.439200 ms  DeleteObjects: 0.020900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 11.735008 seconds.
+  Time since last request: 1.993811 seconds.
   path: Assets/prefabs/RaceTrack2.prefab
   artifactKey: Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26c727c5c472b6c649c5e4ce9912b08d') in 0.047188 seconds 
+Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0d903c46e6352941b2f24372026f797') in 0.008989 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.350927 seconds.
+  Time since last request: 2.406312 seconds.
   path: Assets/prefabs/RaceTrack2.prefab
   artifactKey: Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '000db9610daa00cd7231b444b54a51ee') in 0.013027 seconds 
+Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbcaaa68623fe441de33fe835d6b00f0') in 0.008689 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 51.772820 seconds.
+  Time since last request: 2.402363 seconds.
   path: Assets/prefabs/RaceTrack2.prefab
   artifactKey: Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1456173dc67059ac04211221b2bc303b') in 0.009454 seconds 
+Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6d82e5adfc4d238e4aa3eb57517551b') in 0.011943 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 11.212776 seconds.
+  Time since last request: 2.199158 seconds.
   path: Assets/prefabs/RaceTrack2.prefab
   artifactKey: Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85ade21c3599d43717ae577d1b3f6410') in 0.009589 seconds 
+Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4b668d38a1a377c2d341fbfd997586c') in 0.008603 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 12.253758 seconds.
+  Time since last request: 1.193945 seconds.
   path: Assets/prefabs/RaceTrack2.prefab
   artifactKey: Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfb881caddc2b3010af4f8ad47c93c7d') in 0.009760 seconds 
+Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c42930a0efe0789a4c2459aa03927a0') in 0.008996 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 14.337339 seconds.
+  Time since last request: 1.398049 seconds.
   path: Assets/prefabs/RaceTrack2.prefab
   artifactKey: Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6221b07625c1b039d496c8c936d8f1a9') in 0.010911 seconds 
+Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86f5cffe0dadf8fde69b539cdc6d3aa1') in 0.009468 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 8.556557 seconds.
+  Time since last request: 3.005083 seconds.
   path: Assets/prefabs/RaceTrack2.prefab
   artifactKey: Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a12a88b70878effcd279c4d246d93edc') in 0.009511 seconds 
+Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b221df6782cc7347f135ef4e8a2028a') in 0.008927 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 6.421119 seconds.
+  Time since last request: 3.203769 seconds.
   path: Assets/prefabs/RaceTrack2.prefab
   artifactKey: Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3663874dbb4225fb09df89d3173952ec') in 0.008735 seconds 
+Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79836d494f17bb3f1ad024a22b330796') in 0.008399 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.625703 seconds.
+  Time since last request: 1.398218 seconds.
   path: Assets/prefabs/RaceTrack2.prefab
   artifactKey: Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd938a5ee42edacaa33aae5e86df94398') in 0.010244 seconds 
+Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e4e9b6e83610d5c0c7af4e6a05c2ddc') in 0.008391 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 23.114984 seconds.
+  Time since last request: 3.407164 seconds.
   path: Assets/prefabs/RaceTrack2.prefab
   artifactKey: Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2679c16996055929f6b22912baf66f12') in 0.010018 seconds 
+Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dcd087d4cf4dece631b5ddbc19a3d70') in 0.008434 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 9.487870 seconds.
+  Time since last request: 1.399477 seconds.
   path: Assets/prefabs/RaceTrack2.prefab
   artifactKey: Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e82570601cdafd172d44c8792d68c996') in 0.010497 seconds 
+Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7df4330a63c4b4d6dc3ffd7eb2c6cf4') in 0.008730 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 70.300164 seconds.
+  Time since last request: 8.439984 seconds.
   path: Assets/prefabs/RaceTrack2.prefab
   artifactKey: Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15981dbd5d821b80bd1583e4d977ed37') in 0.010033 seconds 
+Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3e32562d865c09bb55d44694fba3898') in 0.013715 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 6.287539 seconds.
+  Time since last request: 5.814750 seconds.
   path: Assets/prefabs/RaceTrack2.prefab
   artifactKey: Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae7d3f2092f0abe826071f642fa52413') in 0.009980 seconds 
+Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa2316360d7dc693d6a64e578a5a1e1a') in 0.009110 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.735844 seconds.
+  Time since last request: 7.220116 seconds.
   path: Assets/prefabs/RaceTrack2.prefab
   artifactKey: Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74c9f1872d6ad94c3a24a976853f2786') in 0.009257 seconds 
+Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55594b09d493c0717db02337ff8bc167') in 0.009151 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.795565 seconds.
+  Time since last request: 11.057303 seconds.
   path: Assets/prefabs/RaceTrack2.prefab
   artifactKey: Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4f5650dec90445be46a9ef24734dbc8') in 0.009903 seconds 
+Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc45a02b9d9e58cd482479022bdcd9e8') in 0.008957 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 45.203746 seconds.
+  Time since last request: 3.004154 seconds.
   path: Assets/prefabs/RaceTrack2.prefab
   artifactKey: Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7ed2f8480711e37fc684c144bf0dbba') in 0.010880 seconds 
+Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d9dbb96c4fbab39eeeaa3c0eb78277d') in 0.016508 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 8.034821 seconds.
+  Time since last request: 41.049360 seconds.
   path: Assets/prefabs/RaceTrack2.prefab
   artifactKey: Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8b3024e6ef41bf8fe85584796a5a8f1') in 0.010093 seconds 
+Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a84be5d547feef7274df01732583b8e') in 0.010043 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.008663 seconds.
+  Time since last request: 5.213070 seconds.
   path: Assets/prefabs/RaceTrack2.prefab
   artifactKey: Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd344a6958703825ea95791edb9b9cc17') in 0.011599 seconds 
+Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfeb02441e63dc11216d502dae986443') in 0.009346 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 76.101871 seconds.
+  Time since last request: 1.803124 seconds.
   path: Assets/prefabs/RaceTrack2.prefab
   artifactKey: Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86430298425f9f2083b1f405ed5b258d') in 0.010954 seconds 
+Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5676f625857e36ae0753877421753cc6') in 0.009103 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 39.461494 seconds.
+  Time since last request: 10.460179 seconds.
   path: Assets/prefabs/RaceTrack2.prefab
   artifactKey: Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '131b095f7ea829548a7ba68f5ae4b2a7') in 0.010866 seconds 
+Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4125e5c8d36650d7ef963849c15b6327') in 0.010109 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 63.998778 seconds.
+  Time since last request: 5.613452 seconds.
   path: Assets/prefabs/RaceTrack2.prefab
   artifactKey: Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2294a45e4440ada3c0b226b6023f2bf') in 0.011478 seconds 
+Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b6df317633aa924d35d12555589b209') in 0.009603 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 12.054847 seconds.
+  Time since last request: 1.600700 seconds.
   path: Assets/prefabs/RaceTrack2.prefab
   artifactKey: Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9f02d9120c10ff2a409f614f7447d5f') in 0.009687 seconds 
+Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd294b98b12c0429d1f0739ddc0f8794a') in 0.009279 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.797035 seconds.
+  Time since last request: 2.199623 seconds.
   path: Assets/prefabs/RaceTrack2.prefab
   artifactKey: Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f38e8180735bd6d29bd4b1233ba3d644') in 0.010273 seconds 
+Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1944da8f182c28d36f5830a39d54868') in 0.008304 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 7.027846 seconds.
+  Time since last request: 3.211276 seconds.
   path: Assets/prefabs/RaceTrack2.prefab
   artifactKey: Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23fb0c4f1073530b0da0bed3ae31ef8c') in 0.009452 seconds 
+Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b570ffbe0c9f5dfacab8d6e5f2e6f835') in 0.011130 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 13.613439 seconds.
+  Time since last request: 7.028331 seconds.
   path: Assets/prefabs/RaceTrack2.prefab
   artifactKey: Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf615b6659a9fdf314740bea3a580172') in 0.009158 seconds 
+Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd13dfeebc96bce57544061c099992d35') in 0.009964 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 13.578054 seconds.
+  Time since last request: 1.796799 seconds.
   path: Assets/prefabs/RaceTrack2.prefab
   artifactKey: Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07b6b318bd25c05da514f56edc2682a2') in 0.010141 seconds 
+Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cab639bea873d79556c941c4820d827') in 0.008791 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 13.879288 seconds.
+  Time since last request: 10.055266 seconds.
   path: Assets/prefabs/RaceTrack2.prefab
   artifactKey: Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d5ba0e59962b48d3d1097f62607ec57') in 0.010327 seconds 
+Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ce88facc3451ffb78e08fcc2b10c43c') in 0.009324 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 15.650185 seconds.
+  Time since last request: 2.198773 seconds.
   path: Assets/prefabs/RaceTrack2.prefab
   artifactKey: Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9506948f83537cdcd186046054fed5a5') in 0.010793 seconds 
+Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '598abc8b63b08e00033ce8849c52471b') in 0.009751 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 18.095666 seconds.
+  Time since last request: 2.002586 seconds.
   path: Assets/prefabs/RaceTrack2.prefab
   artifactKey: Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db944d5c27b3219944c6a090230f255a') in 0.009523 seconds 
+Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20bca4e3b043a78c7113722c7d4dcdb9') in 0.008992 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 17.865744 seconds.
+  Time since last request: 2.807193 seconds.
   path: Assets/prefabs/RaceTrack2.prefab
   artifactKey: Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0022b92ef2b29ab9afbb7471c6873754') in 0.010539 seconds 
+Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18e78d684cc6f216b361757e9ce5531c') in 0.008136 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 10.133279 seconds.
+  Time since last request: 6.424800 seconds.
   path: Assets/prefabs/RaceTrack2.prefab
   artifactKey: Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15253425a4be5fbb2ccda79f544f67c1') in 0.011332 seconds 
+Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0b0d921e0186b1d347e19d8a5dd1a2f') in 0.009081 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 9.657842 seconds.
+  Time since last request: 8.432983 seconds.
   path: Assets/prefabs/RaceTrack2.prefab
   artifactKey: Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd912c1e95a3a67fe77d579bf67b5c191') in 0.009876 seconds 
+Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77274ebed6c191b2abdb63a0b63ae67f') in 0.008212 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.420001 seconds.
+  Time since last request: 1.598218 seconds.
   path: Assets/prefabs/RaceTrack2.prefab
   artifactKey: Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f2ceec0d7975fb29a0de3b10f3a5e25') in 0.009223 seconds 
+Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e4b95867601065efdc22ef8fe4963d7') in 0.009640 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 10.663268 seconds.
+  Time since last request: 4.420426 seconds.
   path: Assets/prefabs/RaceTrack2.prefab
   artifactKey: Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87c7123ba41a0bf2713b91fb3093405e') in 0.013330 seconds 
+Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc5d5dba88a7c11b6c5edf3a171975fb') in 0.009578 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.200498 seconds.
+  Time since last request: 7.229190 seconds.
   path: Assets/prefabs/RaceTrack2.prefab
   artifactKey: Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09cbedfe786a69ee60143e419c7f4285') in 0.013030 seconds 
+Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01f5ff61901d6e79d9f636fe0e7431da') in 0.008739 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 18.106865 seconds.
+  Time since last request: 2.411075 seconds.
   path: Assets/prefabs/RaceTrack2.prefab
   artifactKey: Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b49724b82a26f47e145824baa8e4a39c') in 0.009028 seconds 
+Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65f55d827d911c33d3e99538cf8a0700') in 0.012070 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 52.409484 seconds.
+  Time since last request: 4.206561 seconds.
   path: Assets/prefabs/RaceTrack2.prefab
   artifactKey: Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46f6e615d0109b52f2fd8564db41b8b7') in 0.009898 seconds 
+Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edc92385c68cb86b07766c698ce89d96') in 0.009088 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.792364 seconds.
+  Time since last request: 4.217951 seconds.
   path: Assets/prefabs/RaceTrack2.prefab
   artifactKey: Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51ff527af6bfc298ecb5e95ff7843857') in 0.011792 seconds 
+Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6f6ef21f124fcd96d41d8eb00f19c97') in 0.009891 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 10.464652 seconds.
+  Time since last request: 5.293051 seconds.
   path: Assets/prefabs/RaceTrack2.prefab
   artifactKey: Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4ecc6d5f3f5b08a56f8e2dbf955b779') in 0.012780 seconds 
+Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bd86e379c27e90968c22d7359bfd038') in 0.009372 seconds 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002984 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.795 seconds
-Domain Reload Profiling:
-	ReloadAssembly (795ms)
-		BeginReloadAssembly (99ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (28ms)
-		EndReloadAssembly (639ms)
-			LoadAssemblies (82ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (220ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (32ms)
-			SetupLoadedEditorAssemblies (233ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (62ms)
-				ProcessInitializeOnLoadAttributes (151ms)
-				ProcessInitializeOnLoadMethodAttributes (8ms)
-				AfterProcessingInitializeOnLoad (7ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1590 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 76.5 MB.
-System memory in use after: 76.6 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2086.
-Total: 2.977400 ms (FindLiveObjects: 0.185800 ms CreateObjectMapping: 0.038900 ms MarkObjects: 2.728300 ms  DeleteObjects: 0.023300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 3.607941 seconds.
+  path: Assets/prefabs/RaceTrack2.prefab
+  artifactKey: Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98b476316c719cfed8e5d1930de727a5') in 0.009003 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.401706 seconds.
+  path: Assets/prefabs/RaceTrack2.prefab
+  artifactKey: Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da1a8f659323f17d948abf53427bbd60') in 0.008816 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.604952 seconds.
+  path: Assets/prefabs/RaceTrack2.prefab
+  artifactKey: Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '147f9974b9755256956fa260da0652a2') in 0.010410 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.403364 seconds.
+  path: Assets/prefabs/RaceTrack2.prefab
+  artifactKey: Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5097af9246949e815ed211a7949244d8') in 0.009778 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.392367 seconds.
+  path: Assets/prefabs/RaceTrack2.prefab
+  artifactKey: Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1198f0fa454f736343ecc7f23be81d53') in 0.010508 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.614463 seconds.
+  path: Assets/prefabs/RaceTrack2.prefab
+  artifactKey: Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24d0ee455f43b250a89ef83e67b2b2c1') in 0.014750 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.789848 seconds.
+  path: Assets/prefabs/RaceTrack2.prefab
+  artifactKey: Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2791ebd94d6a3dd1f47438615dcd4b6c') in 0.009158 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.194577 seconds.
+  path: Assets/prefabs/RaceTrack2.prefab
+  artifactKey: Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f91c8dee76e26420ad4c294ba8fb5f3') in 0.018232 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.206696 seconds.
+  path: Assets/prefabs/RaceTrack2.prefab
+  artifactKey: Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df466f384db21c2e5971658488774be4') in 0.010375 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.011478 seconds.
+  path: Assets/prefabs/RaceTrack2.prefab
+  artifactKey: Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b64b26fcb80c19eba5331aaed9f9fae4') in 0.010055 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.623061 seconds.
+  path: Assets/prefabs/RaceTrack2.prefab
+  artifactKey: Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7a02f74d431f3f39d6b03f0a28d8146') in 0.009397 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.211488 seconds.
+  path: Assets/prefabs/RaceTrack2.prefab
+  artifactKey: Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e538fa8654558ac1f44b675a38f15a3d') in 0.009247 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.416806 seconds.
+  path: Assets/prefabs/RaceTrack2.prefab
+  artifactKey: Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '414b605fef78c5a07632be6b38461fdc') in 0.009300 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.413755 seconds.
+  path: Assets/prefabs/RaceTrack2.prefab
+  artifactKey: Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49a27460aeaba861aff4aa8dfb86c5c4') in 0.010748 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.394724 seconds.
+  path: Assets/prefabs/RaceTrack2.prefab
+  artifactKey: Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b2d710d607faf57b2b51b72ede68c55') in 0.009175 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.420240 seconds.
+  path: Assets/prefabs/RaceTrack2.prefab
+  artifactKey: Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '523e7c99debb324ce81bc6461ff46c84') in 0.009177 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.870117 seconds.
+  path: Assets/prefabs/RaceTrack2.prefab
+  artifactKey: Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e04fac6868c56f92b488295db56d0f1') in 0.024392 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.401747 seconds.
+  path: Assets/prefabs/RaceTrack2.prefab
+  artifactKey: Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dad6b60a625dedb8bc12fa21dd170c3') in 0.010008 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.626392 seconds.
+  path: Assets/prefabs/RaceTrack2.prefab
+  artifactKey: Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b50483347afcdecd5094a347b0431d3') in 0.009433 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.665893 seconds.
+  path: Assets/prefabs/RaceTrack2.prefab
+  artifactKey: Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2b0df2c56f9d758fce3a4d0d49ca12e') in 0.026352 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.985843 seconds.
+  path: Assets/prefabs/RaceTrack2.prefab
+  artifactKey: Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b8b79a40fdeec78d588c7582eda70ae') in 0.008674 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.204700 seconds.
+  path: Assets/prefabs/RaceTrack2.prefab
+  artifactKey: Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd31cf3c588c247e730b45791dbb6f9e6') in 0.010119 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.205084 seconds.
+  path: Assets/prefabs/RaceTrack2.prefab
+  artifactKey: Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57636b65a7afa90ac1e1dd82ea9ae006') in 0.009100 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.016755 seconds.
+  path: Assets/prefabs/RaceTrack2.prefab
+  artifactKey: Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42355015a7a65c5573edde549cdd2ac5') in 0.009841 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.400922 seconds.
+  path: Assets/prefabs/RaceTrack2.prefab
+  artifactKey: Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf3ba26d3272a275a64a8a1ac3803cf8') in 0.010105 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.801672 seconds.
+  path: Assets/prefabs/RaceTrack2.prefab
+  artifactKey: Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd59cae090323a8733aee01e6e68fef1') in 0.015873 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.274444 seconds.
+  path: Assets/prefabs/RaceTrack2.prefab
+  artifactKey: Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '307f071ffed8eb848063304943e85f98') in 0.008878 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.231752 seconds.
+  path: Assets/prefabs/RaceTrack2.prefab
+  artifactKey: Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd16eaa4a68e12b7ddb6984838b279bc3') in 0.018001 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.604544 seconds.
+  path: Assets/prefabs/RaceTrack2.prefab
+  artifactKey: Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70ae62c5445d862256fbddf2625f5f53') in 0.010044 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.811512 seconds.
+  path: Assets/prefabs/RaceTrack2.prefab
+  artifactKey: Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '429dded0cd66e132fd7488f7846673e6') in 0.009135 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.405675 seconds.
+  path: Assets/prefabs/RaceTrack2.prefab
+  artifactKey: Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19b5c83e74693dab59a0c03a18709777') in 0.009746 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.602941 seconds.
+  path: Assets/prefabs/RaceTrack2.prefab
+  artifactKey: Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d245368a0208e0622721aab84a1771f') in 0.009708 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.193436 seconds.
+  path: Assets/prefabs/RaceTrack2.prefab
+  artifactKey: Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c96b0467bc97f87164a792aa11f8a9bb') in 0.010362 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.000742 seconds.
+  path: Assets/prefabs/RaceTrack2.prefab
+  artifactKey: Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50afeaec3edd3738556bb40097c05a8a') in 0.009661 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.442117 seconds.
+  path: Assets/prefabs/RaceTrack2.prefab
+  artifactKey: Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'beb296f85881b911aae1f28e74a47bbf') in 0.012273 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.431334 seconds.
+  path: Assets/prefabs/RaceTrack2.prefab
+  artifactKey: Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49dfe37735c96eb0b2221931b37c2624') in 0.009428 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.819012 seconds.
+  path: Assets/prefabs/RaceTrack2.prefab
+  artifactKey: Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2b98108dd30b56b3881facdc80539e9') in 0.010935 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.817905 seconds.
+  path: Assets/prefabs/RaceTrack2.prefab
+  artifactKey: Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a90d93b3cd56ceaa0c09f806fcc38d7f') in 0.008306 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.428258 seconds.
+  path: Assets/prefabs/RaceTrack2.prefab
+  artifactKey: Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9367004a7e4740cd2a92fc52c71d8fd9') in 0.010597 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.328309 seconds.
+  path: Assets/prefabs/RaceTrack2.prefab
+  artifactKey: Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '956ac1f5c7574dda8b192cc1f1c0c0f8') in 0.024941 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.637300 seconds.
+  path: Assets/prefabs/RaceTrack2.prefab
+  artifactKey: Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee127c19804144549deefe68223b60bf') in 0.009515 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.072014 seconds.
+  path: Assets/prefabs/RaceTrack2.prefab
+  artifactKey: Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45cbcf057a7bd5f15d230bdbbcce1d93') in 0.011995 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 55.424871 seconds.
+  path: Assets/prefabs/RaceTrack2.prefab
+  artifactKey: Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0e8579e88548293a64a2e5f318e4d36') in 0.009079 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.242326 seconds.
+  path: Assets/prefabs/RaceTrack2.prefab
+  artifactKey: Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '552d80dd731a7a1c40a577ba751bedc5') in 0.011249 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.215933 seconds.
+  path: Assets/prefabs/RaceTrack2.prefab
+  artifactKey: Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5987ac5c907991a570cfb79a05d51967') in 0.009833 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.432466 seconds.
+  path: Assets/prefabs/RaceTrack2.prefab
+  artifactKey: Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8956f6c0383c4a18e0c8248c158cac6') in 0.017089 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.011195 seconds.
+  path: Assets/prefabs/RaceTrack2.prefab
+  artifactKey: Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '282154977debfb4cfbf15ba4b7ebc720') in 0.010059 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 91.232498 seconds.
+  path: Assets/prefabs/RaceTrack2.prefab
+  artifactKey: Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ced5d43b71aaa899c5d3d26ad9c369f') in 0.009881 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.455009 seconds.
+  path: Assets/prefabs/RaceTrack2.prefab
+  artifactKey: Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5942301a155b68a6ac23c94250975865') in 0.025145 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.194196 seconds.
+  path: Assets/prefabs/RaceTrack2.prefab
+  artifactKey: Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0157f06c6a322e61678c194193ef1834') in 0.009481 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.865317 seconds.
+  path: Assets/prefabs/RaceTrack2.prefab
+  artifactKey: Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f30d48fe4af3aa561bf730eed0c40921') in 0.020280 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.214467 seconds.
+  path: Assets/prefabs/RaceTrack2.prefab
+  artifactKey: Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5e0ed8da5aab38bc90978dc3aa7e041') in 0.010441 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.819897 seconds.
+  path: Assets/prefabs/RaceTrack2.prefab
+  artifactKey: Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36a05c8e55c2d97394a685824f830c06') in 0.011382 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.220792 seconds.
+  path: Assets/prefabs/RaceTrack2.prefab
+  artifactKey: Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f602b121e62fbb4efcbe21c9bb0bf2e') in 0.010611 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.615009 seconds.
+  path: Assets/prefabs/RaceTrack2.prefab
+  artifactKey: Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bc8c10ab6b61ccd5314454b6614bf6f') in 0.009136 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.252153 seconds.
+  path: Assets/prefabs/RaceTrack2.prefab
+  artifactKey: Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0370c8c501cf0dd1f405aa2b551a448a') in 0.011589 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.001296 seconds.
+  path: Assets/prefabs/RaceTrack2.prefab
+  artifactKey: Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d406da3ea1725305137b995cb82510a') in 0.010728 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.833936 seconds.
+  path: Assets/prefabs/RaceTrack2.prefab
+  artifactKey: Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e40365bccb03e746a0d9d5bd35d8c1c') in 0.011508 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.441992 seconds.
+  path: Assets/prefabs/RaceTrack2.prefab
+  artifactKey: Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '150ef6f6032f950e3925ecbcfffd1b9a') in 0.010825 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.605840 seconds.
+  path: Assets/prefabs/RaceTrack2.prefab
+  artifactKey: Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a51e8a1fa3b3f7cbfc476ff68cb9f1d') in 0.010212 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.450439 seconds.
+  path: Assets/prefabs/RaceTrack2.prefab
+  artifactKey: Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec64c203d2382efd537a835ceb2b1210') in 0.010641 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.393009 seconds.
+  path: Assets/prefabs/RaceTrack2.prefab
+  artifactKey: Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab7e42e02ea5645f887df5fb3a7dc9a1') in 0.009585 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.480178 seconds.
+  path: Assets/prefabs/RaceTrack2.prefab
+  artifactKey: Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88f201917859c762cc688811d73a4ac6') in 0.009207 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.207417 seconds.
+  path: Assets/prefabs/RaceTrack2.prefab
+  artifactKey: Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '741030f60ff2c20b9ded79ab7e93c6a8') in 0.008936 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.802733 seconds.
+  path: Assets/prefabs/RaceTrack2.prefab
+  artifactKey: Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9be0c38c9cf5cdde9103218ea4e8851') in 0.009487 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.998951 seconds.
+  path: Assets/prefabs/RaceTrack2.prefab
+  artifactKey: Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbac9f0300287fb8efad43e465936f78') in 0.018312 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.605392 seconds.
+  path: Assets/prefabs/RaceTrack2.prefab
+  artifactKey: Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f897be0ad834c3d03b6878f35d185cc') in 0.008627 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.024127 seconds.
+  path: Assets/prefabs/RaceTrack2.prefab
+  artifactKey: Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65529d4f59f7fca6d3b9d3b47415c394') in 0.010882 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 73.390561 seconds.
+  path: Assets/prefabs/RaceTrack2.prefab
+  artifactKey: Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21bdd15f9d21524568d83f6f08324a32') in 0.009889 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.253802 seconds.
+  path: Assets/prefabs/RaceTrack2.prefab
+  artifactKey: Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13bb1e8a7baecc2ac68be4c390e7ca29') in 0.009600 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.408657 seconds.
+  path: Assets/prefabs/RaceTrack2.prefab
+  artifactKey: Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8b754a4a08edf036e28af1a71e272a1') in 0.009048 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.211081 seconds.
+  path: Assets/prefabs/RaceTrack2.prefab
+  artifactKey: Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c626dfb6b06958bd6afb3f0b9968faec') in 0.020761 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.607623 seconds.
+  path: Assets/prefabs/RaceTrack2.prefab
+  artifactKey: Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaf474bff53905ae0b2a165baa78990e') in 0.009827 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.002201 seconds.
+  path: Assets/prefabs/RaceTrack2.prefab
+  artifactKey: Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bce620d53860215e8d7574fa319a0111') in 0.008845 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.222004 seconds.
+  path: Assets/prefabs/RaceTrack2.prefab
+  artifactKey: Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2555d04de6cbd50aaa7f25c382ea09e8') in 0.009971 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.331113 seconds.
+  path: Assets/prefabs/RaceTrack2.prefab
+  artifactKey: Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4c5dd7e1177bc49330f990ebf7ca7db') in 0.010435 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.614605 seconds.
+  path: Assets/prefabs/RaceTrack2.prefab
+  artifactKey: Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fead8854b923bd97af3b1a11ff960ad') in 0.010092 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.212969 seconds.
+  path: Assets/prefabs/RaceTrack2.prefab
+  artifactKey: Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '613571d6a9ad46075059b9d80d86de22') in 0.008226 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.025913 seconds.
+  path: Assets/prefabs/RaceTrack2.prefab
+  artifactKey: Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '564006134a87b057da1b619d84de48f3') in 0.010617 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.008219 seconds.
+  path: Assets/prefabs/RaceTrack2.prefab
+  artifactKey: Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e1e56754fa1c30089f5df13c32574f2') in 0.008965 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.010646 seconds.
+  path: Assets/prefabs/RaceTrack2.prefab
+  artifactKey: Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34881f899f64620d7df530b0f48a4ab9') in 0.009168 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.616559 seconds.
+  path: Assets/prefabs/RaceTrack2.prefab
+  artifactKey: Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9c5f787a2f6ac157c79c40c89e54fea') in 0.010004 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.829963 seconds.
+  path: Assets/prefabs/RaceTrack2.prefab
+  artifactKey: Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de6e424e3938836f45e75775540d14bf') in 0.016411 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.997437 seconds.
+  path: Assets/prefabs/RaceTrack2.prefab
+  artifactKey: Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea3d53fbe6fcee515ba20df65d543277') in 0.009756 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.610132 seconds.
+  path: Assets/prefabs/RaceTrack2.prefab
+  artifactKey: Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4edf011d4079ab048f2a897d676e2751') in 0.009984 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.226524 seconds.
+  path: Assets/prefabs/RaceTrack2.prefab
+  artifactKey: Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1edd227921b58117409238196848561f') in 0.010152 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 25.028689 seconds.
+  path: Assets/prefabs/RaceTrack2.prefab
+  artifactKey: Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b510d39a16417c40266c112af305d7be') in 0.009944 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.410514 seconds.
+  path: Assets/prefabs/RaceTrack2.prefab
+  artifactKey: Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b595c7f2b29cad29e494f4a7289eb3e0') in 0.009956 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.605689 seconds.
+  path: Assets/prefabs/RaceTrack2.prefab
+  artifactKey: Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '554598b3cb3434df7439c89ab02e76ba') in 0.009939 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.607649 seconds.
+  path: Assets/prefabs/RaceTrack2.prefab
+  artifactKey: Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48ccb8272659277340ea5b221a627cd2') in 0.009871 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.403474 seconds.
+  path: Assets/prefabs/RaceTrack2.prefab
+  artifactKey: Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '500adb5a1228436c5cce642b59a3c50d') in 0.010389 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.635644 seconds.
+  path: Assets/prefabs/RaceTrack2.prefab
+  artifactKey: Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74907f80e6dcd31b800f8b3472bea6ea') in 0.009991 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.003677 seconds.
+  path: Assets/prefabs/RaceTrack2.prefab
+  artifactKey: Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bab0b53f92acb7368285be850ad5c33') in 0.011356 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.892759 seconds.
+  path: Assets/prefabs/RaceTrack2.prefab
+  artifactKey: Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bb9f93a1767ab300e9d0994c2c96e04') in 0.009787 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.792823 seconds.
+  path: Assets/prefabs/RaceTrack2.prefab
+  artifactKey: Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b655695006dc8032220fc558bc4e31f') in 0.009855 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.809097 seconds.
+  path: Assets/prefabs/RaceTrack2.prefab
+  artifactKey: Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '456da79ac04648103275b15bb3ee2837') in 0.009610 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.038745 seconds.
+  path: Assets/prefabs/RaceTrack2.prefab
+  artifactKey: Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '857549d150e3cf108f728f9fabf7d4ab') in 0.009945 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.015929 seconds.
+  path: Assets/prefabs/RaceTrack2.prefab
+  artifactKey: Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77c10d72e5024516cc1ac6b44e4f4bb4') in 0.010778 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.358572 seconds.
+  path: Assets/prefabs/RaceTrack2.prefab
+  artifactKey: Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c839608be40950eefe40ca386715c924') in 0.015936 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.007206 seconds.
+  path: Assets/prefabs/RaceTrack2.prefab
+  artifactKey: Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8db348d91ed5f242d67ae7d0835b6658') in 0.009402 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.204773 seconds.
+  path: Assets/prefabs/RaceTrack2.prefab
+  artifactKey: Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed3d286b7fb91b21b631e1c258192034') in 0.010550 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.805842 seconds.
+  path: Assets/prefabs/RaceTrack2.prefab
+  artifactKey: Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '182447acc22ac5c3a5b13b8ada47071c') in 0.010331 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.807194 seconds.
+  path: Assets/prefabs/RaceTrack2.prefab
+  artifactKey: Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a074bf2b0c483f6c871348fcc079b604') in 0.011813 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.618900 seconds.
+  path: Assets/prefabs/RaceTrack2.prefab
+  artifactKey: Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9611aa5d064af3aa7f6b0bd3cbb4e85a') in 0.008963 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.032238 seconds.
+  path: Assets/prefabs/RaceTrack2.prefab
+  artifactKey: Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bef8b823a29af4132f59b611caad171') in 0.009508 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.264075 seconds.
+  path: Assets/prefabs/RaceTrack2.prefab
+  artifactKey: Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26202e2522eb69fc212ad53394df0da6') in 0.018945 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 257.498118 seconds.
+  path: Assets/prefabs/RaceTrack2.prefab
+  artifactKey: Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a4445cd761780cc516e9a72f35fa05c') in 0.011657 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.614743 seconds.
+  path: Assets/prefabs/RaceTrack2.prefab
+  artifactKey: Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bbed47bffd7c70d9ab73df46e7c0430') in 0.010682 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.636771 seconds.
+  path: Assets/prefabs/RaceTrack2.prefab
+  artifactKey: Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eefb38e67bd4b6c1a77cb8fe80e64d5c') in 0.011756 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.419736 seconds.
+  path: Assets/prefabs/RaceTrack2.prefab
+  artifactKey: Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd57411dad9bd2faa3010758b50cba75e') in 0.011660 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 48.310555 seconds.
+  path: Assets/prefabs/RaceTrack2.prefab
+  artifactKey: Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db9b5967cea91bbdcf771df1993e0aac') in 0.010430 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.003479 seconds.
+  path: Assets/prefabs/RaceTrack2.prefab
+  artifactKey: Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '153ea0b300efb26b01cf04bce4b6a3de') in 0.009702 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.446808 seconds.
+  path: Assets/prefabs/RaceTrack2.prefab
+  artifactKey: Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '466af5242a86e073053e2cf8dd86c52c') in 0.010442 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.222608 seconds.
+  path: Assets/prefabs/RaceTrack2.prefab
+  artifactKey: Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/RaceTrack2.prefab using Guid(985a5b2a89c11364f9606110f771ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dc5cbbd37c9b4bf929d14712c395d28') in 0.009988 seconds 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
