@@ -7,5 +7,5 @@ public class linkList : MonoBehaviour
 {
     LinkedList<Vector3> trackPoints = new LinkedList<Vector3>();
 
-    trackPoints..AddLast();
+    //trackPoints..AddLast();
 }
