@@ -11,7 +11,13 @@ public class linkList : MonoBehaviour
 
         trackPoints.AddLast("aaa");
 
-        foreach (var x in trackPoints) ;
+        foreach (var x in trackPoints)
+        {
+           // Console.WriteLine(x);
+
+
+        }
+            
     }
    
 }
