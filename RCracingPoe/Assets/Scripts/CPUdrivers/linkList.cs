@@ -5,7 +5,13 @@ using UnityEngine;
 
 public class linkList : MonoBehaviour
 {
-    LinkedList<Vector3> trackPoints = new LinkedList<Vector3>();
+    private void Start()
+    {
+        LinkedList<string> trackPoints = new LinkedList<string>();
 
-    //trackPoints..AddLast();
+        trackPoints.AddLast("aaa");
+
+        foreach (var x in trackPoints) ;
+    }
+   
 }
