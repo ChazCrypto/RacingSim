@@ -1,0 +1,595 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1668618428426356, "dur": 2537411, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1668618428426626, "dur": 2361, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1668618428428989, "dur": 30946, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1668618428459937, "dur": 632624, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1668618429092564, "dur": 1870260, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1668618430962826, "dur": 941, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1668618430964331, "dur": 14, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1668618428886728, "dur": 185275, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1668618428888077, "dur": 62090, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1668618429048022, "dur": 7256, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1668618429055283, "dur": 16699, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1668618429056185, "dur": 14426, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1668618429079297, "dur": 1596, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1668618429078204, "dur": 2727, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1668618430964481, "dur": 256, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1668618429139496, "dur":2444, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668618429141952, "dur":52, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1668618429142018, "dur":19, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1668618429142039, "dur":806, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1668618429142887, "dur":674, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668618429143561, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668618430947033, "dur":459, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668618430947492, "dur":80, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668618430947573, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668618430947577, "dur":17, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668618430947594, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668618430947596, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668618430947602, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668618430947604, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668618430947611, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668618430947613, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668618430947620, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668618430947621, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668618430947627, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668618430947629, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668618430947636, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668618430947638, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668618430947644, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668618430947646, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668618430947653, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668618430947655, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668618430947660, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668618430947662, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668618430947668, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668618430947669, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668618430947676, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668618430947677, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668618430947684, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668618430947685, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668618430947692, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668618430947693, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668618430947699, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668618430947701, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668618430947708, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668618430947726, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668618430947796, "dur":1966, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1668618429143298, "dur":346, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668618429143644, "dur":5449, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668618429149097, "dur":61759, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Game Dev/Year 2/Semester2/POE/POE/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1668618429210865, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668618429212686, "dur":5269, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Game Dev/Year 2/Semester2/POE/POE/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1668618429218034, "dur":220583, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668618429438623, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668618429439398, "dur":9042, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668618429448518, "dur":401940, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668618429850470, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668618429850490, "dur":24853, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668618429875458, "dur":315662, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668618430191133, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668618430191156, "dur":4522, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668618430195767, "dur":264878, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668618430460659, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668618430460681, "dur":3665, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668618430464436, "dur":140992, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/NavMeshComponents.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668618430606063, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668618430606156, "dur":54513, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/NavMeshComponents.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668618430660764, "dur":286259, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668618429142833, "dur":736, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668618429143572, "dur":5173, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668618429148763, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1668618429148770, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668618429153573, "dur":802, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1668618429154381, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1668618429154489, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668618429156266, "dur":284440, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1668618429440711, "dur":56784, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668618429497508, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668618429497532, "dur":7231, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668618429505102, "dur":143945, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668618429649058, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668618429649078, "dur":13688, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668618429662914, "dur":62813, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668618429725738, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668618429725756, "dur":2974, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668618429728840, "dur":112983, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668618429841838, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668618429841871, "dur":37502, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668618429879560, "dur":82020, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668618429961592, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668618429961612, "dur":47136, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668618430008845, "dur":98444, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668618430107302, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668618430107327, "dur":3801, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668618430111240, "dur":273633, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668618430384933, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668618430384954, "dur":3290, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668618430388348, "dur":285554, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668618430673915, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668618430673938, "dur":4278, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668618430678338, "dur":268704, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668618429143382, "dur":274, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668618429143656, "dur":6008, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668618429149670, "dur":13236, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Game Dev/Year 2/Semester2/POE/POE/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1668618429162913, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668618429163687, "dur":6329, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Game Dev/Year 2/Semester2/POE/POE/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1668618429170090, "dur":189, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Game Dev/Year 2/Semester2/POE/POE/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1668618429170319, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668618429170395, "dur":476167, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Game Dev/Year 2/Semester2/POE/POE/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1668618429646673, "dur":124485, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668618429771172, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668618429771197, "dur":3381, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668618429774682, "dur":68276, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668618429842970, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668618429842990, "dur":51209, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668618429894346, "dur":120094, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668618430014452, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668618430014472, "dur":22142, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668618430036725, "dur":64303, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668618430101042, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668618430101067, "dur":5142, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668618430106302, "dur":245220, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668618430351537, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668618430351561, "dur":5191, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668618430356851, "dur":438241, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668618430795100, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668618430795112, "dur":3051, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668618430798224, "dur":148803, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668618429142900, "dur":681, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668618429143581, "dur":5475, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668618429149057, "dur":69823, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Game Dev/Year 2/Semester2/POE/POE/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1668618429218890, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668618429218921, "dur":4138, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Game Dev/Year 2/Semester2/POE/POE/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1668618429223141, "dur":215786, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668618429438932, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668618429439557, "dur":32487, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668618429472152, "dur":184863, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668618429657028, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668618429657048, "dur":24330, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668618429681478, "dur":313898, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668618429995387, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668618429995407, "dur":24374, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668618430019887, "dur":87404, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668618430107303, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668618430107327, "dur":3820, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668618430111282, "dur":436134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668618430547455, "dur":1310, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668618430549171, "dur":3730, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668618430552999, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/sharedassets6.assets" }}
+,{ "pid":12345, "tid":4, "ts":1668618430553106, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668618430553121, "dur":2976, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/sharedassets6.assets" }}
+,{ "pid":12345, "tid":4, "ts":1668618430556205, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":4, "ts":1668618430556306, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668618430556322, "dur":3265, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":4, "ts":1668618430559691, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1668618430559790, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668618430559807, "dur":11384, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1668618430571279, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":4, "ts":1668618430571364, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668618430571380, "dur":2737, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":4, "ts":1668618430574217, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":4, "ts":1668618430574307, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668618430574324, "dur":3300, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":4, "ts":1668618430577716, "dur":2275, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":4, "ts":1668618430580003, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668618430580031, "dur":3756, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":4, "ts":1668618430583887, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1668618430583982, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668618430584000, "dur":23798, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1668618430607895, "dur":126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/level5" }}
+,{ "pid":12345, "tid":4, "ts":1668618430608034, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668618430608050, "dur":7489, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/level5" }}
+,{ "pid":12345, "tid":4, "ts":1668618430615638, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/level3" }}
+,{ "pid":12345, "tid":4, "ts":1668618430615728, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668618430615743, "dur":4388, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/level3" }}
+,{ "pid":12345, "tid":4, "ts":1668618430620246, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/level0" }}
+,{ "pid":12345, "tid":4, "ts":1668618430620364, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668618430620375, "dur":6236, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/level0" }}
+,{ "pid":12345, "tid":4, "ts":1668618430626920, "dur":167, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":4, "ts":1668618430627184, "dur":13, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668618430627213, "dur":3294, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":4, "ts":1668618430630601, "dur":316423, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668618429142961, "dur":624, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668618429143585, "dur":5448, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668618429149034, "dur":223, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Game Dev/Year 2/Semester2/POE/POE/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1668618429149265, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668618429174215, "dur":36277, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Game Dev/Year 2/Semester2/POE/POE/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1668618429210575, "dur":228236, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668618429438817, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668618429439507, "dur":28868, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668618429468467, "dur":45919, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668618429514398, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668618429514417, "dur":25437, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668618429539951, "dur":61632, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668618429602132, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668618429602154, "dur":4480, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668618429606794, "dur":66182, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668618429672990, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668618429673042, "dur":3281, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668618429676415, "dur":113458, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668618429789886, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668618429789974, "dur":3361, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668618429793424, "dur":525364, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668618430318799, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668618430318820, "dur":14695, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668618430333603, "dur":192160, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668618430525774, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668618430525796, "dur":17081, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668618430542991, "dur":277254, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668618430820252, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668618430820263, "dur":1460, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668618430821792, "dur":125252, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668618429142997, "dur":595, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668618429143592, "dur":5426, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668618429149019, "dur":427, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Game Dev/Year 2/Semester2/POE/POE/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1668618429149453, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668618429163185, "dur":635854, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Game Dev/Year 2/Semester2/POE/POE/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1668618429799140, "dur":65850, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668618429865002, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668618429865023, "dur":35491, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668618429900820, "dur":354354, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668618430255187, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668618430255259, "dur":6176, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668618430261536, "dur":182992, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668618430444540, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668618430444562, "dur":2790, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668618430447445, "dur":199402, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/NavMeshComponentsExamples.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668618430646864, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668618430646892, "dur":12745, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/NavMeshComponentsExamples.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668618430659746, "dur":287292, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1668618429143035, "dur":564, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1668618429143599, "dur":5377, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1668618429148977, "dur":64941, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Game Dev/Year 2/Semester2/POE/POE/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1668618429213928, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1668618429213971, "dur":3069, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Game Dev/Year 2/Semester2/POE/POE/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1668618429217111, "dur":221501, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1668618429438620, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1668618429441065, "dur":29304, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1668618429470455, "dur":88235, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1668618429558749, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1668618429558769, "dur":20355, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1668618429579215, "dur":129134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1668618429708366, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1668618429708390, "dur":2963, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1668618429711446, "dur":127761, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1668618429839226, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1668618429839254, "dur":41312, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1668618429880682, "dur":107755, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1668618429988449, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1668618429988470, "dur":113114, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1668618430101673, "dur":495308, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":7, "ts":1668618430596992, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1668618430597014, "dur":62152, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":7, "ts":1668618430659261, "dur":287764, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1668618429143068, "dur":536, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1668618429143604, "dur":5154, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1668618429148764, "dur":289881, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Game Dev/Year 2/Semester2/POE/POE/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":8, "ts":1668618429438650, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1668618429439348, "dur":6221, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Game Dev/Year 2/Semester2/POE/POE/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":8, "ts":1668618429445659, "dur":58238, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1668618429503909, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1668618429524830, "dur":10426, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1668618429535373, "dur":111208, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1668618429646592, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1668618429646665, "dur":13398, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1668618429660180, "dur":106603, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1668618429766798, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1668618429766822, "dur":3726, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1668618429770686, "dur":197070, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1668618429967769, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1668618429967791, "dur":47987, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1668618430015900, "dur":156509, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":8, "ts":1668618430172434, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1668618430172488, "dur":12915, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":8, "ts":1668618430185491, "dur":102847, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":8, "ts":1668618430288350, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1668618430288371, "dur":3253, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":8, "ts":1668618430291732, "dur":507266, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":8, "ts":1668618430799005, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1668618430799019, "dur":4630, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":8, "ts":1668618430803725, "dur":143334, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1668618429143117, "dur":493, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1668618429143610, "dur":5149, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1668618429148763, "dur":236, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Game Dev/Year 2/Semester2/POE/POE/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":9, "ts":1668618429149005, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1668618429163447, "dur":43510, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Game Dev/Year 2/Semester2/POE/POE/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":9, "ts":1668618429207035, "dur":231640, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1668618429438680, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1668618429439413, "dur":8399, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1668618429447891, "dur":48235, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1668618429496136, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1668618429496155, "dur":8421, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1668618429504687, "dur":88766, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1668618429593464, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1668618429593485, "dur":4963, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1668618429598664, "dur":175093, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1668618429773772, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1668618429773796, "dur":8258, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1668618429782167, "dur":48221, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1668618429830402, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1668618429830425, "dur":64022, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1668618429894539, "dur":99896, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1668618429994446, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1668618429994466, "dur":28324, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1668618430022915, "dur":3810, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":9, "ts":1668618430026738, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1668618430026760, "dur":10754, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":9, "ts":1668618430037620, "dur":130436, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":9, "ts":1668618430168068, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1668618430168087, "dur":2478, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":9, "ts":1668618430170661, "dur":232875, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":9, "ts":1668618430403553, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1668618430403581, "dur":3199, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":9, "ts":1668618430406860, "dur":135478, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":9, "ts":1668618430542349, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1668618430542368, "dur":2752, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":9, "ts":1668618430545209, "dur":295, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":9, "ts":1668618430545512, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1668618430546777, "dur":2831, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":9, "ts":1668618430549713, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":9, "ts":1668618430549828, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1668618430550025, "dur":2902, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":9, "ts":1668618430553020, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/sharedassets5.assets.resS" }}
+,{ "pid":12345, "tid":9, "ts":1668618430553109, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1668618430553124, "dur":3170, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/sharedassets5.assets.resS" }}
+,{ "pid":12345, "tid":9, "ts":1668618430556821, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":9, "ts":1668618430556949, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1668618430556965, "dur":3022, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":9, "ts":1668618430560085, "dur":226, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":9, "ts":1668618430560320, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1668618430560335, "dur":3833, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":9, "ts":1668618430564256, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":9, "ts":1668618430564344, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1668618430564361, "dur":3802, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":9, "ts":1668618430568298, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":9, "ts":1668618430568395, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1668618430568411, "dur":2838, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":9, "ts":1668618430571338, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":9, "ts":1668618430571507, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1668618430571521, "dur":4711, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":9, "ts":1668618430576323, "dur":314, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":9, "ts":1668618430576646, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1668618430576665, "dur":15440, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":9, "ts":1668618430592203, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/resources.assets" }}
+,{ "pid":12345, "tid":9, "ts":1668618430592297, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1668618430592315, "dur":6182, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/resources.assets" }}
+,{ "pid":12345, "tid":9, "ts":1668618430598601, "dur":170, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/level6" }}
+,{ "pid":12345, "tid":9, "ts":1668618430598780, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1668618430598796, "dur":8575, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/level6" }}
+,{ "pid":12345, "tid":9, "ts":1668618430608964, "dur":4442, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/level4" }}
+,{ "pid":12345, "tid":9, "ts":1668618430613420, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1668618430613444, "dur":3705, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/level4" }}
+,{ "pid":12345, "tid":9, "ts":1668618430617244, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/level2" }}
+,{ "pid":12345, "tid":9, "ts":1668618430617364, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1668618430617380, "dur":2732, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/level2" }}
+,{ "pid":12345, "tid":9, "ts":1668618430620246, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/level1" }}
+,{ "pid":12345, "tid":9, "ts":1668618430620354, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1668618430620370, "dur":4699, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/level1" }}
+,{ "pid":12345, "tid":9, "ts":1668618430625182, "dur":183, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":9, "ts":1668618430625375, "dur":27, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1668618430625441, "dur":3917, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":9, "ts":1668618430629460, "dur":306, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/boot.config" }}
+,{ "pid":12345, "tid":9, "ts":1668618430629774, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1668618430629791, "dur":3226, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/boot.config" }}
+,{ "pid":12345, "tid":9, "ts":1668618430633124, "dur":313911, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1668618429143153, "dur":463, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1668618429143617, "dur":5145, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1668618429148763, "dur":67510, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Game Dev/Year 2/Semester2/POE/POE/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":10, "ts":1668618429216286, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1668618429216328, "dur":2846, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Game Dev/Year 2/Semester2/POE/POE/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":10, "ts":1668618429219240, "dur":219617, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1668618429438863, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1668618429439392, "dur":5163, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1668618429444631, "dur":42791, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1668618429487437, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1668618429487521, "dur":3613, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1668618429491300, "dur":379768, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":10, "ts":1668618429871135, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1668618429871311, "dur":43154, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":10, "ts":1668618429914578, "dur":91322, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1668618430005911, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1668618430005930, "dur":18154, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1668618430024221, "dur":368569, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":10, "ts":1668618430392801, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1668618430392821, "dur":2601, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":10, "ts":1668618430395515, "dur":277008, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":10, "ts":1668618430672535, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1668618430672555, "dur":5594, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":10, "ts":1668618430678260, "dur":268795, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1668618429143192, "dur":430, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1668618429143622, "dur":5142, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1668618429148765, "dur":246, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Game Dev/Year 2/Semester2/POE/POE/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":11, "ts":1668618429149018, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1668618429162905, "dur":15181, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Game Dev/Year 2/Semester2/POE/POE/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":11, "ts":1668618429178144, "dur":177, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Game Dev/Year 2/Semester2/POE/POE/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":11, "ts":1668618429178326, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1668618429178338, "dur":10751, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Game Dev/Year 2/Semester2/POE/POE/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":11, "ts":1668618429189171, "dur":4847, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Game Dev/Year 2/Semester2/POE/POE/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":11, "ts":1668618429194026, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1668618429194036, "dur":2844, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Game Dev/Year 2/Semester2/POE/POE/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":11, "ts":1668618429196983, "dur":217, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":11, "ts":1668618429197207, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1668618429198118, "dur":45506, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":11, "ts":1668618429243699, "dur":195131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1668618429438836, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1668618429439528, "dur":5573, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1668618429445183, "dur":30983, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1668618429476177, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1668618429476397, "dur":2095, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1668618429478572, "dur":367965, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1668618429846549, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1668618429846574, "dur":28825, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1668618429875511, "dur":41319, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1668618429916844, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1668618429916868, "dur":2616, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1668618429919583, "dur":228117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":11, "ts":1668618430147712, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1668618430147731, "dur":3393, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":11, "ts":1668618430151219, "dur":225501, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":11, "ts":1668618430376735, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1668618430376760, "dur":3941, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":11, "ts":1668618430380842, "dur":376606, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":11, "ts":1668618430757456, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1668618430757470, "dur":2395, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":11, "ts":1668618430759944, "dur":187105, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1668618429143224, "dur":404, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1668618429143628, "dur":9828, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1668618429153600, "dur":460, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Game Dev/Year 2/Semester2/POE/POE/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":12, "ts":1668618429154068, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1668618429163650, "dur":277243, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Game Dev/Year 2/Semester2/POE/POE/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":12, "ts":1668618429441003, "dur":252036, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1668618429693051, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1668618429693072, "dur":3006, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1668618429696193, "dur":119805, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1668618429816012, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1668618429816036, "dur":6857, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1668618429823000, "dur":52805, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1668618429875821, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1668618429875848, "dur":24864, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1668618429900812, "dur":103168, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1668618430003992, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1668618430004013, "dur":30000, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1668618430034131, "dur":2031, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":12, "ts":1668618430036173, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1668618430036193, "dur":6391, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":12, "ts":1668618430042690, "dur":211821, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":12, "ts":1668618430254523, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1668618430254588, "dur":7181, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":12, "ts":1668618430262896, "dur":475625, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":12, "ts":1668618430738534, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1668618430738556, "dur":3801, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":12, "ts":1668618430742448, "dur":204583, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1668618429143257, "dur":375, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1668618429143632, "dur":5713, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1668618429149350, "dur":214, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Game Dev/Year 2/Semester2/POE/POE/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":13, "ts":1668618429149572, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1668618429166069, "dur":13525, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Game Dev/Year 2/Semester2/POE/POE/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":13, "ts":1668618429179658, "dur":190, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Game Dev/Year 2/Semester2/POE/POE/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":13, "ts":1668618429179857, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1668618429179870, "dur":4743, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Game Dev/Year 2/Semester2/POE/POE/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":13, "ts":1668618429184674, "dur":29322, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Game Dev/Year 2/Semester2/POE/POE/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":13, "ts":1668618429214003, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1668618429214153, "dur":11070, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Game Dev/Year 2/Semester2/POE/POE/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":13, "ts":1668618429225304, "dur":213459, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1668618429438769, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1668618429439474, "dur":8677, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1668618429448217, "dur":154613, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1668618429602841, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1668618429602859, "dur":6555, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1668618429609590, "dur":44048, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1668618429653650, "dur":30, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1668618429653698, "dur":10295, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1668618429664102, "dur":49407, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1668618429713520, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1668618429713540, "dur":4249, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1668618429717897, "dur":83405, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1668618429801316, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1668618429801406, "dur":13168, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1668618429814963, "dur":180438, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":13, "ts":1668618429995410, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1668618429995477, "dur":83248, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":13, "ts":1668618430078830, "dur":237498, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":13, "ts":1668618430316339, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1668618430316358, "dur":9167, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":13, "ts":1668618430325619, "dur":441090, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":13, "ts":1668618430766717, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1668618430766729, "dur":4427, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":13, "ts":1668618430771268, "dur":175772, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1668618429143286, "dur":352, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1668618429143638, "dur":12207, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1668618429155859, "dur":15463, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Game Dev/Year 2/Semester2/POE/POE/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":14, "ts":1668618429171330, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1668618429171361, "dur":10945, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Game Dev/Year 2/Semester2/POE/POE/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":14, "ts":1668618429182370, "dur":3763, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Game Dev/Year 2/Semester2/POE/POE/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":14, "ts":1668618429186140, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1668618429186566, "dur":4014, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Game Dev/Year 2/Semester2/POE/POE/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":14, "ts":1668618429190662, "dur":248100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe.exe" }}
+,{ "pid":12345, "tid":14, "ts":1668618429438768, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1668618429438779, "dur":3015, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe.exe" }}
+,{ "pid":12345, "tid":14, "ts":1668618429441875, "dur":46629, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1668618429488520, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1668618429488545, "dur":18619, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1668618429507264, "dur":236311, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1668618429743590, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1668618429743619, "dur":4472, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1668618429748350, "dur":243437, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1668618429991799, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1668618429991819, "dur":28281, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1668618430020239, "dur":124286, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":14, "ts":1668618430144537, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1668618430144557, "dur":5870, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":14, "ts":1668618430150533, "dur":375511, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":14, "ts":1668618430526054, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1668618430526121, "dur":4822, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":14, "ts":1668618430531093, "dur":368497, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":14, "ts":1668618430899596, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1668618430899633, "dur":9035, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":14, "ts":1668618430908712, "dur":38341, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1668618429142865, "dur":710, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1668618429143575, "dur":5511, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1668618429149087, "dur":498, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Game Dev/Year 2/Semester2/POE/POE/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":15, "ts":1668618429149589, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1668618429163849, "dur":21285, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Game Dev/Year 2/Semester2/POE/POE/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":15, "ts":1668618429185195, "dur":122912, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Game Dev/Year 2/Semester2/POE/POE/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":15, "ts":1668618429308120, "dur":10, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1668618429308144, "dur":187982, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Game Dev/Year 2/Semester2/POE/POE/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":15, "ts":1668618429496234, "dur":116710, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1668618429612955, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1668618429612974, "dur":7791, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1668618429620913, "dur":70013, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1668618429690939, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1668618429690960, "dur":3140, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1668618429694213, "dur":47729, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1668618429741954, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1668618429741976, "dur":4522, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1668618429746599, "dur":74078, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1668618429820689, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1668618429820710, "dur":25660, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1668618429846475, "dur":60289, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1668618429906780, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1668618429906805, "dur":10784, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1668618429917711, "dur":77554, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1668618429995277, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1668618429995299, "dur":105042, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1668618430100462, "dur":2154, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":15, "ts":1668618430102628, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1668618430102650, "dur":3048, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":15, "ts":1668618430105820, "dur":617716, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":15, "ts":1668618430723547, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1668618430723719, "dur":7330, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":15, "ts":1668618430731154, "dur":215903, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1668618429143333, "dur":316, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1668618429143649, "dur":5567, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1668618429149220, "dur":916, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Game Dev/Year 2/Semester2/POE/POE/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":16, "ts":1668618429150145, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1668618429163680, "dur":479610, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Game Dev/Year 2/Semester2/POE/POE/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":16, "ts":1668618429643386, "dur":82293, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1668618429725693, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1668618429725719, "dur":3553, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1668618429729361, "dur":54219, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1668618429783592, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1668618429783613, "dur":2826, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1668618429786527, "dur":70239, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1668618429856780, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1668618429856802, "dur":23684, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1668618429880585, "dur":50651, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1668618429931248, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1668618429931270, "dur":2439, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1668618429933804, "dur":534871, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":16, "ts":1668618430468687, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1668618430468708, "dur":3352, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":16, "ts":1668618430472155, "dur":470316, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":16, "ts":1668618430942478, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1668618430942489, "dur":4455, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Game Dev/Year 2/Semester2/POE/POE/RCracingPoe_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":16, "ts":1668618430946980, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":16, "ts":1668618430946983, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668618430952449, "dur":3138, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1668618430964813, "dur": 847, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1668618430964316, "dur": 1385, "ph": "X", "name": "Write chrome-trace events", "args": {} },

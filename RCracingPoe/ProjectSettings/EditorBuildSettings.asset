@@ -9,9 +9,21 @@ EditorBuildSettings:
     path: Assets/Scenes/Start Screen.unity
     guid: 84c88e484a3fc264a8624f2f2bac3eff
   - enabled: 1
-    path: Assets/Scenes/DialogueMenu.unity
+    path: Assets/Scenes/BeginnerDialogue.unity
     guid: f4706feaca4e82a48a19f60ec2e6eae2
   - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/AIrace.unity
+    guid: e89f7ed12311418419934497da517f16
+  - enabled: 1
+    path: Assets/Scenes/BeginnerRace.unity
+    guid: c7d847654680961489e138adcbf49717
+  - enabled: 1
+    path: Assets/Scenes/FinaleRace.unity
+    guid: ce6c4504069c1a441a47895016e12594
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 56b82b44338a770469cc450702d3cd91
   m_configObjects: {}

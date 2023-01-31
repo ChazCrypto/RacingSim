@@ -12,7 +12,7 @@ public class WaypontSystem : MonoBehaviour
         foreach (Transform R in transform)
         {
             Gizmos.color = Color.green;
-            Gizmos.DrawWireSphere(R.position, 1f);
+            Gizmos.DrawWireSphere(R.position, waypointSize);
         }
 
         Gizmos.color = Color.green;

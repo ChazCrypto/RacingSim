@@ -24,11 +24,11 @@ public class Dialoge_Manager : MonoBehaviour
     public void startDialogue(Dialogue RaceDialogue)
     {
         Dialogue DL = new Dialogue();
-        Debug.Log("starting convo with " + RaceDialogue.RaceName);
-        displayRaceName.text = DL.RaceName[1];
+       // Debug.Log("starting convo with " + RaceDialogue.RaceName);
+        //displayRaceName.text = DL.RaceName[1];
         Sentences.Clear();
 
-        foreach (var Sentence in RaceDialogue.sentence)
+        foreach (var Sentence in RaceDialogue.sentences)
         {
             Sentences.Enqueue(Sentence);
         }
